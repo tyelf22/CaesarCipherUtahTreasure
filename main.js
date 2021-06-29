@@ -33,5 +33,7 @@ function decoder(key, sentence){
 
   if(answerTxt.textContent == "asthecrowflies"){
       answerTxt.style.color = 'lightGreen'
+  }else {
+    answerTxt.style.color = 'white'
   }
 }
